@@ -2,7 +2,9 @@
 This repo is the collection of the challenging panoptic segmentation, including papers and codes.
 
 ## What is panoptic segmentation?
-![](Selection_066.png)
+<div align="center">
+<img src="Selection_066.png">
+ </div>
 ## Datasets
 * [Cityscapes](https://www.cityscapes-dataset.com/)
 * [Mapillary Vistas](https://blog.mapillary.com/product/2017/05/03/mapillary-vistas-dataset.html)
