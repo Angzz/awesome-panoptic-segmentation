@@ -15,7 +15,7 @@ This repo is the collection of the challenging panoptic segmentation, including 
 ## Evaluation Metrics
 * PQ
 
-## Leaderboards
+## SOTA Results & Leaderboards
 * Mapillary panoptic : Megvii(Face++) results not release. 
 * COCO panoptic : Megvii(Face++)
 
