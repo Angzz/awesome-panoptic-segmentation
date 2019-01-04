@@ -13,6 +13,7 @@ This repo is the collection of the challenging panoptic segmentation, including 
 * [BDD100K](https://bair.berkeley.edu/blog/2018/05/30/bdd/) (without instance annotation released)
 
 ## Evaluation Metrics
+* PQ
 
 ## Leaderboards
 * Mapillary panoptic : Megvii(Face++) results not release. 
@@ -25,14 +26,14 @@ This repo is the collection of the challenging panoptic segmentation, including 
 2.**Learning to Fuse Things and Stuff**
 * https://arxiv.org/abs/1812.01192
 
-3.Panoptic Segmentation with a Joint Semantic and Instance Segmentation Network
+3.**Panoptic Segmentation with a Joint Semantic and Instance Segmentation Network**
 * https://arxiv.org/abs/1809.02110
 
-4.Attention-guided Unified Network for Panoptic Segmentation
+4.**Attention-guided Unified Network for Panoptic Segmentation**
 * https://arxiv.org/abs/1812.03904
 
-5.Weakly- and Semi-Supervised Panoptic Segmentation
+5.**Weakly- and Semi-Supervised Panoptic Segmentation**
 * https://arxiv.org/abs/1808.03575
 
-6.Interactive Full Image Segmentation
+6.**Interactive Full Image Segmentation**
 * https://arxiv.org/abs/1812.01888
