@@ -38,5 +38,5 @@ This repo is the collection of the challenging panoptic segmentation, including 
 6.**Interactive Full Image Segmentation**
 * https://arxiv.org/abs/1812.01888
 
-7. **Panoptic Feature Pyramid Networks**
+7.**Panoptic Feature Pyramid Networks**
 https://arxiv.org/pdf/1901.02446.pdf
