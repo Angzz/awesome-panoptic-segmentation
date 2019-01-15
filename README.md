@@ -39,4 +39,7 @@ This repo is the collection of the challenging panoptic segmentation, including 
 * https://arxiv.org/abs/1812.01888
 
 7.**Panoptic Feature Pyramid Networks**
-* https://arxiv.org/pdf/1901.02446.pdf
+* https://arxiv.org/abs/1901.02446
+
+8.**UPSNet: A Unified Panoptic Segmentation Network**
+* https://arxiv.org/abs/1901.03784
