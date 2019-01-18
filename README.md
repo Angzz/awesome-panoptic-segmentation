@@ -19,6 +19,7 @@ Summarize in one sentence : Panoptic Segmentation proposes to solve the semantic
 ## Evaluation Metrics
 * PQ(Panoptic Quality)
 
+<div align="center" width="200" height="100"><img src="Selection_097.png"></div>
 
 ## SOTA Results & Leaderboards
 * Mapillary panoptic : Megvii(Face++) results not release. 
