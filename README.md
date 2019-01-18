@@ -27,10 +27,10 @@ Generally, the datasets which contains both semantic and instance annotations ca
 * **Mapillary Panoptic**
 * **COCO Panoptic** 
 
-  | PQ | SQ | RQ | PQ_{Th} | SQ_{Th} | RQ_{Th} | PQ_{St} | SQ_{St} | RQ_{St} |
-| ------ | ------ | ------ |------ | ------ | ------ |------ | ------ | ------ | ------ |
-| Megvii(Face++) | 0.532 | 0.830 | 0.632 | 0.621 | 0.852 | 0.726 | 0.398 | 0.797 | 0.489 |
-| Panoptic FPN |  0.409 | | | 48.3 | | | 29.7 | | |
+| - | PQ | SQ | RQ | PQ_{Th} | SQ_{Th} | RQ_{Th} | PQ_{St} | SQ_{St} | RQ_{St} | E2E | 
+| ------ | ---- | ---- | ---- | ----- | ----- | ----- | ----- | ----- | ----- | -- | 
+| Megvii(Face++) | 0.532 | 0.830 | 0.632 | 0.621 | 0.852 | 0.726 | 0.398 | 0.797 | 0.489 | False |
+| Panoptic FPN | 0.409 |  |  | 0.483 |  |  | 0.297 |  |  | True |
 
 * **Cityscapes Panoptic**
 
