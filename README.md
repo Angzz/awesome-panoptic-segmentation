@@ -13,12 +13,12 @@ Summarize in one sentence : Panoptic Segmentation proposes to solve the semantic
 * [Cityscapes](https://www.cityscapes-dataset.com/)
 * [Mapillary Vistas](https://blog.mapillary.com/product/2017/05/03/mapillary-vistas-dataset.html)
 * [ADE20K](http://groups.csail.mit.edu/vision/datasets/ADE20K/)
-* [COCO](http://cocodataset.org/)
-* [BDD100K](https://bair.berkeley.edu/blog/2018/05/30/bdd/) (without instance annotation released)
+* [COCO-Panoptic](http://cocodataset.org/)
+* [BDD100K](https://bair.berkeley.edu/blog/2018/05/30/bdd/) (the instance annotations are temporaily not released)
 
 ## Evaluation Metrics
 * PQ(Panoptic Quality)
-$$A = (B + C)$$
+
 
 ## SOTA Results & Leaderboards
 * Mapillary panoptic : Megvii(Face++) results not release. 
