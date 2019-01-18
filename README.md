@@ -17,9 +17,12 @@ Summarize in one sentence : Panoptic Segmentation proposes to solve the semantic
 * [BDD100K](https://bair.berkeley.edu/blog/2018/05/30/bdd/) (the instance annotations are temporaily not released)
 
 ## Evaluation Metrics
-* PQ(Panoptic Quality)
-
+* **PQ**(*Panoptic Quality*)
 <div align="center" width="200" height="100"><img src="Selection_097.png"></div>
+* **SQ & RQ**(*Semantic Quality and *)
+<div align="center" width="200" height="100"><img src="Selection_097.png"></div>
+
+
 
 ## SOTA Results & Leaderboards
 * Mapillary panoptic : Megvii(Face++) results not release. 
