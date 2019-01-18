@@ -9,7 +9,7 @@ Summarize in one sentence : Panoptic Segmentation proposes to solve the semantic
  
 ## Datasets
 
-- Generally, the datasets which contains both semantic and instance annotations can be used to solve the challenging *panoptic* task;  
+Generally, the datasets which contains both semantic and instance annotations can be used to solve the challenging *panoptic* task;  
 * [Cityscapes](https://www.cityscapes-dataset.com/)
 * [Mapillary Vistas](https://blog.mapillary.com/product/2017/05/03/mapillary-vistas-dataset.html)
 * [ADE20K](http://groups.csail.mit.edu/vision/datasets/ADE20K/)
@@ -26,6 +26,13 @@ Summarize in one sentence : Panoptic Segmentation proposes to solve the semantic
 ## SOTA Results & Leaderboards
 * Mapillary panoptic : Megvii(Face++) results not release. 
 * COCO panoptic : Megvii(Face++)
+
+| PQ | PQ_{Th} | SQ_{Th} |
+| ------ | ------ | ------ |
+| 短文本 | 中等文本 | 稍微长一点的文本 |
+| 稍微长一点的文本 | 短文本 | 中等文本 |
+
+
 
 ## Papers & Codes
 1.**Panoptic Segmentation**
