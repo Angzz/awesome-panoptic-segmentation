@@ -27,7 +27,7 @@ Generally, the datasets which contains both semantic and instance annotations ca
 * Mapillary panoptic : Megvii(Face++) results not release. 
 * COCO panoptic : Megvii(Face++)
 
-- | PQ | SQ | RQ | PQ_{Th} | SQ_{Th} | RQ_{Th} | PQ_{St} | SQ_{St} | RQ_{St} 
+ | PQ | SQ | RQ | PQ_{Th} | SQ_{Th} | RQ_{Th} | PQ_{St} | SQ_{St} | RQ_{St} 
 | ------ | ------ | ------ |------ | ------ | ------ |------ | ------ | ------ | ------ |
 
 
