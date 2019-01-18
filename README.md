@@ -24,12 +24,15 @@ Generally, the datasets which contains both semantic and instance annotations ca
 <div align="center" width="200" height="100"><img src="Selection_098.png"></div>
 
 ## SOTA Results & Leaderboards
-* Mapillary panoptic : Megvii(Face++) results not release. 
-* COCO panoptic : Megvii(Face++)
+* **Mapillary Panoptic**
+* **COCO Panoptic** 
 
-Team | PQ | SQ | RQ | PQ_{Th} | SQ_{Th} | RQ_{Th} | PQ_{St} | SQ_{St} | RQ_{St} 
+  | PQ | SQ | RQ | PQ_{Th} | SQ_{Th} | RQ_{Th} | PQ_{St} | SQ_{St} | RQ_{St} |
 | ------ | ------ | ------ |------ | ------ | ------ |------ | ------ | ------ | ------ |
+| Megvii(Face++) | 0.532 | 0.830 | 0.632 | 0.621 | 0.852 | 0.726 | 0.398 | 0.797 | 0.489 |
+| Panoptic FPN |  0.409 | | | 48.3 | | | 29.7 | | |
 
+* **Cityscapes Panoptic**
 
 
 
