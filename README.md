@@ -1,11 +1,15 @@
 # Awesome-Panoptic-Segmentation
-This repo is the collection of the challenging panoptic segmentation, including papers and codes.
+This repo is a collection of the challenging panoptic segmentation, including papers, codes, and tutorials.
 
-## What is panoptic segmentation?
+## What is Panoptic Segmentation?
+
+Summarize in one sentence : Panoptic Segmentation proposes to solve the semantic segmentation(*Stuff*) and instance segmentation(*Thing*) in a unified and general manner.
 
 <div align="center"><img src="Selection_066.png"></div>
  
 ## Datasets
+
+- Generally, the datasets which contains both semantic and instance annotations can be used to solve the challenging *panoptic* task;  
 * [Cityscapes](https://www.cityscapes-dataset.com/)
 * [Mapillary Vistas](https://blog.mapillary.com/product/2017/05/03/mapillary-vistas-dataset.html)
 * [ADE20K](http://groups.csail.mit.edu/vision/datasets/ADE20K/)
@@ -13,7 +17,8 @@ This repo is the collection of the challenging panoptic segmentation, including 
 * [BDD100K](https://bair.berkeley.edu/blog/2018/05/30/bdd/) (without instance annotation released)
 
 ## Evaluation Metrics
-* PQ
+* PQ(Panoptic Quality)
+$$A = (B + C)$$
 
 ## SOTA Results & Leaderboards
 * Mapillary panoptic : Megvii(Face++) results not release. 
