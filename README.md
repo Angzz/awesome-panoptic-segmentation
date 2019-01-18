@@ -5,7 +5,7 @@ This repo is a collection of the challenging panoptic segmentation, including pa
 
 Summarize in one sentence : Panoptic Segmentation proposes to solve the semantic segmentation(*Stuff*) and instance segmentation(*Thing*) in a unified and general manner.
 
-<div align="center"><img src="Selection_066.png"></div>
+<div align="center" width="500" height="400"><img src="Selection_066.png"></div>
  
 ## Datasets
 
