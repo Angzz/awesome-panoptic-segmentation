@@ -57,7 +57,7 @@ Generally, the datasets which contains both semantic and instance annotations ca
 * Paper : https://arxiv.org/abs/1812.01888
 
 7.**Panoptic Feature Pyramid Networks**
-* https://arxiv.org/abs/1901.02446
+* Paper : https://arxiv.org/abs/1901.02446
 
 8.**UPSNet: A Unified Panoptic Segmentation Network**
-* https://arxiv.org/abs/1901.03784
+* Paper : https://arxiv.org/abs/1901.03784
