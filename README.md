@@ -38,22 +38,23 @@ Generally, the datasets which contains both semantic and instance annotations ca
 
 ## Papers & Codes
 1.**Panoptic Segmentation**
-* https://arxiv.org/abs/1801.00868
+* Paper : https://arxiv.org/abs/1801.00868
 
 2.**Learning to Fuse Things and Stuff**
-* https://arxiv.org/abs/1812.01192
+* Paper : https://arxiv.org/abs/1812.01192
 
 3.**Panoptic Segmentation with a Joint Semantic and Instance Segmentation Network**
-* https://arxiv.org/abs/1809.02110
+* Paper : https://arxiv.org/abs/1809.02110
 
 4.**Attention-guided Unified Network for Panoptic Segmentation**
-* https://arxiv.org/abs/1812.03904
+* Paper : https://arxiv.org/abs/1812.03904
 
 5.**Weakly- and Semi-Supervised Panoptic Segmentation**
-* https://arxiv.org/abs/1808.03575
+* Paper : https://arxiv.org/abs/1808.03575
+* Code : https://github.com/qizhuli/Weakly-Supervised-Panoptic-Segmentation
 
 6.**Interactive Full Image Segmentation**
-* https://arxiv.org/abs/1812.01888
+* Paper : https://arxiv.org/abs/1812.01888
 
 7.**Panoptic Feature Pyramid Networks**
 * https://arxiv.org/abs/1901.02446
