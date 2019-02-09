@@ -61,3 +61,6 @@ Generally, the datasets which contains both semantic and instance annotations ca
 
 8.**UPSNet: A Unified Panoptic Segmentation Network**
 * Paper : https://arxiv.org/abs/1901.03784
+
+9.**Single Network Panoptic Segmentation for Street Scene Understanding**
+* Paper : https://arxiv.org/abs/1902.02678
