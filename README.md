@@ -40,23 +40,24 @@ Generally, the datasets which contains both semantic and instance annotations ca
 1.**Panoptic Segmentation**
 * Paper : https://arxiv.org/abs/1801.00868
 
-2.**Learning to Fuse Things and Stuff**
+2.**Learning to Fuse Things and Stuff (CVPR2019)**
 * Paper : https://arxiv.org/abs/1812.01192
 
 3.**Panoptic Segmentation with a Joint Semantic and Instance Segmentation Network**
 * Paper : https://arxiv.org/abs/1809.02110
 
-4.**Attention-guided Unified Network for Panoptic Segmentation**
+4.**Attention-guided Unified Network for Panoptic Segmentation (CVPR2019)**
 * Paper : https://arxiv.org/abs/1812.03904
+* Code : Will released
 
-5.**Weakly- and Semi-Supervised Panoptic Segmentation**
+5.**Weakly- and Semi-Supervised Panoptic Segmentation (ECCV2018)**
 * Paper : https://arxiv.org/abs/1808.03575
 * Code : https://github.com/qizhuli/Weakly-Supervised-Panoptic-Segmentation
 
 6.**Interactive Full Image Segmentation**
 * Paper : https://arxiv.org/abs/1812.01888
 
-7.**Panoptic Feature Pyramid Networks**
+7.**Panoptic Feature Pyramid Networks (CVPR2019)**
 * Paper : https://arxiv.org/abs/1901.02446
 
 8.**UPSNet: A Unified Panoptic Segmentation Network**
@@ -65,5 +66,9 @@ Generally, the datasets which contains both semantic and instance annotations ca
 9.**Single Network Panoptic Segmentation for Street Scene Understanding**
 * Paper : https://arxiv.org/abs/1902.02678
 
-10.**DeeperLab: Single-Shot Image Parser**
+10.**DeeperLab: Single-Shot Image Parser (CVPR2019)**
 * Paper : https://arxiv.org/abs/1902.05093
+
+11 **An End-to-End Network for Panoptic Segmentation (CVPR2019)**
+* Paper : Not released
+* Code : Will released
