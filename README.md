@@ -70,5 +70,5 @@ Generally, the datasets which contains both semantic and instance annotations ca
 * Paper : https://arxiv.org/abs/1902.05093
 
 11 **An End-to-End Network for Panoptic Segmentation (CVPR2019)**
-* Paper : Not released
+* Paper : https://arxiv.org/abs/1903.05027
 * Code : Will released
