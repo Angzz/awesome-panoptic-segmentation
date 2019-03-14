@@ -35,6 +35,9 @@ Generally, the datasets which contains both semantic and instance annotations ca
 * **Cityscapes Panoptic**
 
 
+## Blogs
+1.**Face++ Detection Team on Panoptic Segmentation**
+* Blog : https://zhuanlan.zhihu.com/p/59141570
 
 ## Papers & Codes
 1.**Panoptic Segmentation**
