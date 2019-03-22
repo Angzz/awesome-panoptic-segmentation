@@ -76,5 +76,5 @@ Generally, the datasets which contains both semantic and instance annotations ca
 * Paper : https://arxiv.org/abs/1903.05027
 * Code : Will released
 
-12 **PanopticFusion: Online Volumetric Semantic Mapping at the Level of Stuff and Things** 
+12 **PanopticFusion: Online Volumetric Semantic Mapping at the Level of Stuff and Things (CVPR2019)** 
 * Paper : https://arxiv.org/pdf/1903.01177.pdf
