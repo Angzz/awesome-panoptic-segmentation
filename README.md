@@ -63,7 +63,7 @@ Generally, the datasets which contains both semantic and instance annotations ca
 7.**Panoptic Feature Pyramid Networks (CVPR2019)**
 * Paper : https://arxiv.org/abs/1901.02446
 
-8.**UPSNet: A Unified Panoptic Segmentation Network**
+8.**UPSNet: A Unified Panoptic Segmentation Network (CVPR2019)**
 * Paper : https://arxiv.org/abs/1901.03784
 * Code : https://github.com/uber-research/UPSNet
 
