@@ -40,7 +40,7 @@ Generally, the datasets which contains both semantic and instance annotations ca
 * Blog : https://zhuanlan.zhihu.com/p/59141570
 
 ## Papers & Codes
-1.**Panoptic Segmentation**
+1.**Panoptic Segmentation (CVPR2019)**
 * Paper : https://arxiv.org/abs/1801.00868
 
 2.**Learning to Fuse Things and Stuff (CVPR2019)**
