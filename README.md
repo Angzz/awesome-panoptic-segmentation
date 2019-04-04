@@ -60,7 +60,7 @@ Generally, the datasets which contains both semantic and instance annotations ca
 6.**Interactive Full Image Segmentation**
 * Paper : https://arxiv.org/abs/1812.01888
 
-7.**Panoptic Feature Pyramid Networks (CVPR2019)**
+7.**Panoptic Feature Pyramid Networks (CVPR2019 Oral)**
 * Paper : https://arxiv.org/abs/1901.02446
 
 8.**UPSNet: A Unified Panoptic Segmentation Network (CVPR2019)**
