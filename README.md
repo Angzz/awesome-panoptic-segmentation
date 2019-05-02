@@ -14,23 +14,37 @@ Generally, the datasets which contains both semantic and instance annotations ca
 * [COCO-Panoptic](http://cocodataset.org/)
 * [BDD100K](https://bair.berkeley.edu/blog/2018/05/30/bdd/) (the instance annotations are temporaily not released)
 
-## Evaluation Metrics
-* **PQ**(*Panoptic Quality*)
-<div align="center" width="200" height="100"><img src="Selection_097.png"></div>
-
-* **SQ & RQ**(*Segmentation Quality and Recognition Quality*)
-<div align="center" width="200" height="100"><img src="Selection_098.png"></div>
-
 ## Benchmark Results
+* ``PQ`` are the standard metrics described in [Panoptic Segmentation](https://arxiv.org/pdf/1801.00868.pdf).
+<div align="center" width="100" height="50"><img src="img/pq_metric.png"></div>
+
+* ``PC`` are the standard metrics described in [DeeperLab](https://arxiv.org/pdf/1902.05093).
+<div align="center" width="100" height="50"><img src="img/pc_metric.png"></div>
+
 * **COCO Benchmark**
+| Method | Backbone | PQ | PQ-Thing | PQ-Stuff | mIoU | AP-Mask | PC |  e2e | 
+| Panoptic FPN | ResNet-101 | 40.9 | 48.3 | 29.7 | - | - | - | :heavy_check_mark: |
+| UPSNet | ResNet-101 | 42.5 | 48.6 | 33.4 | 54.3 | 34.3 | - | :heavy_check_mark: |
+| AUNet | ResNet-101 | 45.2 | 54.4 | 31.3 | - | - | - | :heavy_check_mark: |
+| DeeperLab | Xception-71 | 33.9 | - | - | - | - | 56.82 |  :heavy_check_mark: |
+| OANet | ResNet-101 | 41.3 | 50.4 | 27.7 | - | - | - | :heavy_check_mark: |
+
 * **Cityscapes Benchmark**
+| Method | Backbone | PQ | PQ-Thing | PQ-Stuff | mIoU | AP-Mask | PC |  e2e | 
+| Panoptic FPN | ResNet-101 | 40.9 | 48.3 | 29.7 | - | - | - | :heavy_check_mark: |
+| UPSNet | ResNet-101 | 42.5 | 48.6 | 33.4 | 54.3 | 34.3 | - | :heavy_check_mark: |
+| AUNet | ResNet-101 | 45.2 | 54.4 | 31.3 | - | - | - | :heavy_check_mark: |
+| DeeperLab | Xception-71 | 33.9 | - | - | - | - | 56.82 |  :heavy_check_mark: |
+| OANet | ResNet-101 | 41.3 | 50.4 | 27.7 | - | - | - | :heavy_check_mark: |
+
 * **Mapillary Benchmark** 
+| Method | Backbone | PQ | PQ-Thing | PQ-Stuff | mIoU | AP-Mask | PC |  e2e | 
+| Panoptic FPN | ResNet-101 | 40.9 | 48.3 | 29.7 | - | - | - | :heavy_check_mark: |
+| UPSNet | ResNet-101 | 42.5 | 48.6 | 33.4 | 54.3 | 34.3 | - | :heavy_check_mark: |
+| AUNet | ResNet-101 | 45.2 | 54.4 | 31.3 | - | - | - | :heavy_check_mark: |
+| DeeperLab | Xception-71 | 33.9 | - | - | - | - | 56.82 |  :heavy_check_mark: |
+| OANet | ResNet-101 | 41.3 | 50.4 | 27.7 | - | - | - | :heavy_check_mark: |
 
-
-| - | PQ | SQ | RQ | PQ_{Th} | SQ_{Th} | RQ_{Th} | PQ_{St} | SQ_{St} | RQ_{St} | E2E | 
-| ------ | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | -- | 
-| Megvii(Face++) | 0.532 | 0.830 | 0.632 | 0.621 | 0.852 | 0.726 | 0.398 | 0.797 | 0.489 | False |
-| Panoptic FPN | 0.409 |  |  | 0.483 |  |  | 0.297 |  |  | True |   
 
 ## Papers 
 ### CVPR2019
@@ -46,7 +60,7 @@ Generally, the datasets which contains both semantic and instance annotations ca
 
 * **TASCNet:** Jie Li, Allan Raventos, Arjun Bhargava, Takaaki Tagawa, Adrien Gaidon.<br />"Learning to Fuse Things and Stuff." CVPR (2019). [[paper](https://arxiv.org/pdf/1812.01192)]
 
-* **OCNet:** Huanyu Liu, Chao Peng, Changqian Yu, Jingbo Wang, Xu Liu, Gang Yu, Wei Jiang.<br />"An End-to-End Network for Panoptic Segmentation." CVPR (2019). [[paper](https://arxiv.org/pdf/1903.05027.pdf)]
+* **OANet:** Huanyu Liu, Chao Peng, Changqian Yu, Jingbo Wang, Xu Liu, Gang Yu, Wei Jiang.<br />"An End-to-End Network for Panoptic Segmentation." CVPR (2019). [[paper](https://arxiv.org/pdf/1903.05027.pdf)]
 
 * Eirikur Agustsson, Jasper R. R. Uijlings, Vittorio Ferrari
 .<br />"Interactive Full Image Segmentation by Considering All Regions Jointly." CVPR (2019). [[paper](https://arxiv.org/pdf/1812.01888.pdf)]
