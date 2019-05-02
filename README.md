@@ -22,8 +22,9 @@ Generally, the datasets which contains both semantic and instance annotations ca
 <div align="center" width="50" height="25"><img src="img/pc_metric.png"></div>
 
 * **COCO Benchmark**
+
 | Method | Backbone | PQ | PQ-Thing | PQ-Stuff | mIoU | AP-Mask | PC |  e2e | 
-| ---------- | :-----------:  | :-----------: | :-----------: |:-----------: |:-----------: |:-----------: |:-----------: |:-----------: |
+| :----------: | :-----------: | :-----------: | :-----------: |:-----------: |:-----------: |:-----------: |:-----------: |:-----------: |
 | Panoptic FPN | ResNet-101 | 40.9 | 48.3 | 29.7 | - | - | - | :heavy_check_mark: |
 | UPSNet | ResNet-101 | 42.5 | 48.6 | 33.4 | 54.3 | 34.3 | - | :heavy_check_mark: |
 | AUNet | ResNet-101 | 45.2 | 54.4 | 31.3 | - | - | - | :heavy_check_mark: |
