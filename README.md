@@ -19,7 +19,7 @@ Generally, the datasets which contains both semantic and instance annotations ca
 <div align="center" width="10" height="5"><img src="img/pq_metric.png" width="600" height="150"></div>
 
 * ``PC`` are the standard metrics described in [DeeperLab](https://arxiv.org/pdf/1902.05093).
-<div align="center" width="10" height="5"><img src="img/pc_metric.png" width="600" height="197"></div>
+<div align="center" width="10" height="5"><img src="img/pc_metric.png" width="600" height="207"></div>
 
 * **COCO Benchmark**
 
