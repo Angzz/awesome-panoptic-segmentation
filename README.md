@@ -28,24 +28,27 @@ Generally, the datasets which contains both semantic and instance annotations ca
 | Panoptic FPN | ResNet-101 | 40.9 | 48.3 | 29.7 | - | - | - | - | - | :heavy_check_mark: |
 | UPSNet | ResNet-101 | 42.5 | 48.6 | 33.4 | - | - | 54.3 | 34.3 | - | :heavy_check_mark: |
 | AUNet | ResNet-101 | 45.2 | 54.4 | 31.3 | 80.6 | 54.7 | - | - | - | :heavy_check_mark: |
-| DeeperLab | Xception-71 | 33.9 | - | - | - | - | - | - | 56.82 |  :heavy_check_mark: |
-| OANet | ResNet-101 | 41.3 | 50.4 | 27.7 | - | - | - | :heavy_check_mark: |
+| DeeperLab | Xception-71 | 34.3 | 37.5 | 29.6 | 77.1 | 43.1 | - | - | 56.8 |  :heavy_check_mark: |
+| OANet | ResNet-101 | 41.3 | 50.4 | 27.7 | - | - | - | - | - | :heavy_check_mark: |
 
 * **Cityscapes Benchmark**
+
 | Method | Backbone | PQ | PQ-Thing | PQ-Stuff | SQ | RQ | mIoU | AP-Mask | PC |  e2e | 
 | :----------: | :-----------: | :-----------: | :-----------: |:-----------: |:-----------: |:-----------: |:-----------: |:-----------: | :-----------: | :-----------: |
 | Panoptic(Merge) | - | 61.2 | 66.4 | 54.0 | 80.9 | 74.4 | - | - | - | :x: |
 | Panoptic FPN | ResNet-101 | 58.1 | 52.0 | 62.5 | - | - | 75.7 |33.0 | - | :heavy_check_mark: |
 | UPSNet | ResNet-50 | 59.3 | 54.6 | 62.7 | 79.7 | 73.0 | 75.2 | 33.3 | - | :heavy_check_mark: |
 | AUNet | ResNet-101 | 59.0 | 54.8 | 62.1 | - | - | 75.6 | 34.4 | - | :heavy_check_mark: |
-| DeeperLab | Xception-71 | 33.9 | - | - | - | - | - | - | 56.82 |  :heavy_check_mark: |
-| TASCNet | ResNet-101 | 33.9 | - | - | - | - | - | - | 56.82 |  :heavy_check_mark: |
+| DeeperLab | Xception-71 | 56.5 | - | - | - | - | - | - | 75.6 |  :heavy_check_mark: |
+| TASCNet | ResNet-101 | 59.2 | 56 | 61.5 | - | - | 77.8 | 37.6 | - |  :heavy_check_mark: |
 
 * **Mapillary Benchmark** 
+
 | :----------: | :-----------: | :-----------: | :-----------: |:-----------: |:-----------: |:-----------: |:-----------: |:-----------: | :-----------: | :-----------: |
 | Method | Backbone | PQ | PQ-Thing | PQ-Stuff | SQ | RQ | mIoU | AP-Mask | PC |  e2e | 
 | Panoptic(Merge) | -  | 38.3 | 41.8 | 35.7 | 73.6 | 47.7 | - | - | - | :x: |
-| TASCNet | ResNet-101 | 38.3 | 41.8 | 35.7 | 73.6 | 47.7 | - | - | - | :heavy_check_mark: |
+| TASCNet | ResNet-101 | 32.6 | 31.3 | 34.4 | - | - | 35.0 | 18.5 | - | :heavy_check_mark: |
+| DeeperLab | Xception-71 | 31.6 | 25.0 | 40.3 | 75.5 | 40.1 | - | - | 55.3 |  :heavy_check_mark: |
 
 
 ## Papers 
