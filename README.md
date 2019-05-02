@@ -1,12 +1,10 @@
 # Awesome-Panoptic-Segmentation
-This repo is a collection of the challenging panoptic segmentation, including papers, codes, and tutorials.
+This repo is a collection of the challenging panoptic segmentation, including papers, codes, and benchmark results, etc.
 
-## What is Panoptic Segmentation?
-
+## Panoptic Segmentation
+<div align="center" width="200" height="100"><img src="img/panoptic_segmentation_overview.png"></div>
 Summarize in one sentence : Panoptic Segmentation proposes to solve the semantic segmentation(*Stuff*) and instance segmentation(*Thing*) in a unified and general manner.
 
-<div align="center" width="200" height="100"><img src="Selection_066.png"></div>
- 
 ## Datasets
 
 Generally, the datasets which contains both semantic and instance annotations can be used to solve the challenging *panoptic* task;  
@@ -23,59 +21,47 @@ Generally, the datasets which contains both semantic and instance annotations ca
 * **SQ & RQ**(*Segmentation Quality and Recognition Quality*)
 <div align="center" width="200" height="100"><img src="Selection_098.png"></div>
 
-## SOTA Results & Leaderboards
-* **Mapillary Panoptic**
-* **COCO Panoptic** 
+## Benchmark Results
+* **COCO Benchmark**
+* **Cityscapes Benchmark**
+* **Mapillary Benchmark** 
+
 
 | - | PQ | SQ | RQ | PQ_{Th} | SQ_{Th} | RQ_{Th} | PQ_{St} | SQ_{St} | RQ_{St} | E2E | 
 | ------ | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | -- | 
 | Megvii(Face++) | 0.532 | 0.830 | 0.632 | 0.621 | 0.852 | 0.726 | 0.398 | 0.797 | 0.489 | False |
-| Panoptic FPN | 0.409 |  |  | 0.483 |  |  | 0.297 |  |  | True |
+| Panoptic FPN | 0.409 |  |  | 0.483 |  |  | 0.297 |  |  | True |   
 
-* **Cityscapes Panoptic**
+## Papers 
+### CVPR2019
+* **Panoptic Segmentation:** Alexander Kirillov, Kaiming He, Ross Girshick, Carsten Rother, Piotr Dollár.<br />"Panoptic Segmentation." CVPR (2019). [[paper](https://arxiv.org/pdf/1801.00868.pdf)]
+
+* **Panoptic FPN:** Alexander Kirillov, Ross Girshick, Kaiming He, Piotr Dollár.<br />"Panoptic Feature Pyramid Networks." CVPR (2019 **oral**). [[paper](https://arxiv.org/pdf/1901.02446.pdf)]
+
+* **AUNet:** Yanwei Li, Xinze Chen, Zheng Zhu, Lingxi Xie, Guan Huang, Dalong Du, Xingang Wang.<br />"Attention-guided Unified Network for Panoptic Segmentation." CVPR (2019). [[paper](https://arxiv.org/pdf/1812.03904.pdf)]
+
+* **UPSNet:** Yuwen Xiong, Renjie Liao, Hengshuang Zhao, Rui Hu, Min Bai, Ersin Yumer, Raquel Urtasun.<br />"UPSNet: A Unified Panoptic Segmentation Network." CVPR (2019). [[paper](https://arxiv.org/pdf/1901.03784.pdf)] [[code](https://github.com/uber-research/UPSNet)]
+
+* **DeeperLab:** Tien-Ju Yang, Maxwell D. Collins, Yukun Zhu, Jyh-Jing Hwang, Ting Liu, Xiao Zhang, Vivienne Sze, George Papandreou, Liang-Chieh Chen.<br />"DeeperLab: Single-Shot Image Parser." CVPR (2019). [[paper](https://arxiv.org/pdf/1902.05093)] [[project](http://deeperlab.mit.edu)] [[code](https://github.com/tensorflow/models/tree/master/research/deeplab/evaluation)]
+
+* **TASCNet:** Jie Li, Allan Raventos, Arjun Bhargava, Takaaki Tagawa, Adrien Gaidon.<br />"Learning to Fuse Things and Stuff." CVPR (2019). [[paper](https://arxiv.org/pdf/1812.01192)]
+
+* **OCNet:** Huanyu Liu, Chao Peng, Changqian Yu, Jingbo Wang, Xu Liu, Gang Yu, Wei Jiang.<br />"An End-to-End Network for Panoptic Segmentation." CVPR (2019). [[paper](https://arxiv.org/pdf/1903.05027.pdf)]
+
+* Eirikur Agustsson, Jasper R. R. Uijlings, Vittorio Ferrari
+.<br />"Interactive Full Image Segmentation by Considering All Regions Jointly." CVPR (2019). [[paper](https://arxiv.org/pdf/1812.01888.pdf)]
 
 
-## Blogs
-1.**Face++ Detection Team on Panoptic Segmentation**
-* Blog : https://zhuanlan.zhihu.com/p/59141570
+### ECCV2018
+* Qizhu Li, Anurag Arnab, Philip H.S. Torr.<br />"Weakly- and Semi-Supervised Panoptic Segmentation." ECCV (2018). [[paper](https://arxiv.org/pdf/1812.01192.pdf)] [[code](https://github.com/qizhuli/Weakly-Supervised-Panoptic-Segmentation)]
 
-## Papers & Codes
-1.**Panoptic Segmentation (CVPR2019)**
-* Paper : https://arxiv.org/abs/1801.00868
+### ArXiv
 
-2.**Learning to Fuse Things and Stuff (CVPR2019)**
-* Paper : https://arxiv.org/abs/1812.01192
+* Daan de Geus, Panagiotis Meletis, Gijs Dubbelman.<br />"Panoptic Segmentation with a Joint Semantic and Instance Segmentation Network." arXiv (2018). [[paper](https://arxiv.org/pdf/1809.02110.pdf)]
 
-3.**Panoptic Segmentation with a Joint Semantic and Instance Segmentation Network**
-* Paper : https://arxiv.org/abs/1809.02110
+* Daan de Geus, Panagiotis Meletis, Gijs Dubbelman.<br />"Single Network Panoptic Segmentation for Street Scene Understanding." arXiv (2019). [[paper](https://arxiv.org/pdf/1902.02678.pdf)]
 
-4.**Attention-guided Unified Network for Panoptic Segmentation (CVPR2019)**
-* Paper : https://arxiv.org/abs/1812.03904
-* Code : Will released
+* David Owen, Ping-Lin Chang.<br />"Detecting Reflections by Combining Semantic and Instance Segmentation." arXiv (2019). [[paper](https://arxiv.org/pdf/1904.13273.pdf)]
 
-5.**Weakly- and Semi-Supervised Panoptic Segmentation (ECCV2018)**
-* Paper : https://arxiv.org/abs/1808.03575
-* Code : https://github.com/qizhuli/Weakly-Supervised-Panoptic-Segmentation
+* Gaku Narita, Takashi Seno, Tomoya Ishikawa, Yohsuke Kaji.<br />"PanopticFusion: Online Volumetric Semantic Mapping at the Level of Stuff and Things." arXiv (2019). [[paper](https://arxiv.org/pdf/1903.01177.pdf)]
 
-6.**Interactive Full Image Segmentation**
-* Paper : https://arxiv.org/abs/1812.01888
-
-7.**Panoptic Feature Pyramid Networks (CVPR2019 Oral)**
-* Paper : https://arxiv.org/abs/1901.02446
-
-8.**UPSNet: A Unified Panoptic Segmentation Network (CVPR2019)**
-* Paper : https://arxiv.org/abs/1901.03784
-* Code : https://github.com/uber-research/UPSNet
-
-9.**Single Network Panoptic Segmentation for Street Scene Understanding**
-* Paper : https://arxiv.org/abs/1902.02678
-
-10.**DeeperLab: Single-Shot Image Parser (CVPR2019)**
-* Paper : https://arxiv.org/abs/1902.05093
-
-11 **An End-to-End Network for Panoptic Segmentation (CVPR2019)**
-* Paper : https://arxiv.org/abs/1903.05027
-* Code : Will released
-
-12 **PanopticFusion: Online Volumetric Semantic Mapping at the Level of Stuff and Things (CVPR2019)** 
-* Paper : https://arxiv.org/pdf/1903.01177.pdf
