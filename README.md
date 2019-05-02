@@ -2,7 +2,7 @@
 This repo is a collection of the challenging panoptic segmentation, including papers, codes, and benchmark results, etc.
 
 ## Panoptic Segmentation
-<div align="center" width="10" height="5"><img src="img/panoptic_segmentation_overview.png"></div>
+<div align="center" width="10" height="5"><img src="img/panoptic_segmentation_overview.png" width="700" height="500"></div>
 Summarize in one sentence : Panoptic Segmentation proposes to solve the semantic segmentation(*Stuff*) and instance segmentation(*Thing*) in a unified and general manner.
 
 ## Datasets
@@ -16,10 +16,10 @@ Generally, the datasets which contains both semantic and instance annotations ca
 
 ## Benchmark Results
 * ``PQ`` are the standard metrics described in [Panoptic Segmentation](https://arxiv.org/pdf/1801.00868.pdf).
-<div align="center" width="10" height="5"><img src="img/pq_metric.png"></div>
+<div align="center" width="10" height="5"><img src="img/pq_metric.png" width="700" height="180"></div>
 
 * ``PC`` are the standard metrics described in [DeeperLab](https://arxiv.org/pdf/1902.05093).
-<div align="center" width="10" height="5"><img src="img/pc_metric.png"></div>
+<div align="center" width="10" height="5"><img src="img/pc_metric.png" width="700" height="180"></div>
 
 * **COCO Benchmark**
 
@@ -44,8 +44,8 @@ Generally, the datasets which contains both semantic and instance annotations ca
 
 * **Mapillary Benchmark** 
 
-| :----------: | :-----------: | :-----------: | :-----------: |:-----------: |:-----------: |:-----------: |:-----------: |:-----------: | :-----------: | :-----------: |
 | Method | Backbone | PQ | PQ-Thing | PQ-Stuff | SQ | RQ | mIoU | AP-Mask | PC |  e2e | 
+| :----------: | :-----------: | :-----------: | :-----------: |:-----------: |:-----------: |:-----------: |:-----------: |:-----------: | :-----------: | :-----------: |
 | Panoptic(Merge) | -  | 38.3 | 41.8 | 35.7 | 73.6 | 47.7 | - | - | - | :x: |
 | TASCNet | ResNet-101 | 32.6 | 31.3 | 34.4 | - | - | 35.0 | 18.5 | - | :heavy_check_mark: |
 | DeeperLab | Xception-71 | 31.6 | 25.0 | 40.3 | 75.5 | 40.1 | - | - | 55.3 |  :heavy_check_mark: |
