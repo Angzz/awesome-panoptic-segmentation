@@ -86,3 +86,7 @@ Generally, the datasets which contains both semantic and instance annotations ca
 
 * Gaku Narita, Takashi Seno, Tomoya Ishikawa, Yohsuke Kaji.<br />"PanopticFusion: Online Volumetric Semantic Mapping at the Level of Stuff and Things." arXiv (2019). [[paper](https://arxiv.org/pdf/1903.01177.pdf)]
 
+
+## Blogs
+* **Face++ Detection Team:** https://zhuanlan.zhihu.com/p/59141570
+
