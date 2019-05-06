@@ -37,6 +37,7 @@ Generally, the datasets which contains both semantic and instance annotations ca
 | Method | Backbone | PQ | PQ-Thing | PQ-Stuff | SQ | RQ | mIoU | AP-Mask | PC |  e2e | 
 | :----------: | :-----------: | :-----------: | :-----------: |:-----------: |:-----------: |:-----------: |:-----------: |:-----------: | :-----------: | :-----------: |
 | Panoptic(Merge) | - | 61.2 | 66.4 | 54.0 | 80.9 | 74.4 | - | - | - | :x: |
+| Seamless | ResNet-50  | 59.8 | 53.4 | 64.5 | - | - | 75.4 | 31.9 | - | :heavy_check_mark: |
 | UPSNet | ResNet-50 | 59.3 | 54.6 | 62.7 | 79.7 | 73.0 | 75.2 | 33.3 | - | :heavy_check_mark: |
 | TASCNet | ResNet-101 | 59.2 | 56 | 61.5 | - | - | 77.8 | 37.6 | - |  :heavy_check_mark: |
 | Panoptic FPN | ResNet-101 | 58.1 | 52.0 | 62.5 | - | - | 75.7 |33.0 | - | :heavy_check_mark: |
@@ -49,6 +50,7 @@ Generally, the datasets which contains both semantic and instance annotations ca
 | Method | Backbone | PQ | PQ-Thing | PQ-Stuff | SQ | RQ | mIoU | AP-Mask | PC |  e2e | 
 | :----------: | :-----------: | :-----------: | :-----------: |:-----------: |:-----------: |:-----------: |:-----------: |:-----------: | :-----------: | :-----------: |
 | Panoptic(Merge) | -  | 38.3 | 41.8 | 35.7 | 73.6 | 47.7 | - | - | - | :x: |
+| Seamless | ResNet-50  | 37.2 | 33.2 | 42.5 | - | - | 50.2 | 16.3 | - | :heavy_check_mark: |
 | TASCNet | ResNet-101 | 32.6 | 31.3 | 34.4 | - | - | 35.0 | 18.5 | - | :heavy_check_mark: |
 | DeeperLab | Xception-71 | 31.6 | 25.0 | 40.3 | 75.5 | 40.1 | - | - | 55.3 |  :heavy_check_mark: |
 
@@ -77,6 +79,7 @@ Generally, the datasets which contains both semantic and instance annotations ca
 * Qizhu Li, Anurag Arnab, Philip H.S. Torr.<br />"Weakly- and Semi-Supervised Panoptic Segmentation." ECCV (2018). [[paper](https://arxiv.org/pdf/1812.01192.pdf)] [[code](https://github.com/qizhuli/Weakly-Supervised-Panoptic-Segmentation)]
 
 ### ArXiv
+* **Seamless:** Lorenzo Porzi, Samuel Rota Bulo, Aleksander Colovic, Peter Kontschieder.<br />"Seamless Scene Segmentation." arXiv (2019). [[paper](https://arxiv.org/pdf/1809.02110.pdf)]
 
 * Daan de Geus, Panagiotis Meletis, Gijs Dubbelman.<br />"Panoptic Segmentation with a Joint Semantic and Instance Segmentation Network." arXiv (2018). [[paper](https://arxiv.org/pdf/1809.02110.pdf)]
 
