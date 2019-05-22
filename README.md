@@ -59,7 +59,7 @@ Generally, the datasets which contains both semantic and instance annotations ca
 ### CVPR2019
 * **Panoptic Segmentation:** Alexander Kirillov, Kaiming He, Ross Girshick, Carsten Rother, Piotr Dollár.<br />"Panoptic Segmentation." CVPR (2019). [[paper](https://arxiv.org/pdf/1801.00868.pdf)]
 
-* **Panoptic FPN:** Alexander Kirillov, Ross Girshick, Kaiming He, Piotr Dollár.<br />"Panoptic Feature Pyramid Networks." CVPR (2019 **oral**). [[paper](https://arxiv.org/pdf/1901.02446.pdf)]
+* **Panoptic FPN:** Alexander Kirillov, Ross Girshick, Kaiming He, Piotr Dollár.<br />"Panoptic Feature Pyramid Networks." CVPR (2019 **oral**). [[paper](https://arxiv.org/pdf/1901.02446.pdf)] [[unofficial code](https://github.com/Angzz/panoptic-fpn-gluon)]
 
 * **AUNet:** Yanwei Li, Xinze Chen, Zheng Zhu, Lingxi Xie, Guan Huang, Dalong Du, Xingang Wang.<br />"Attention-guided Unified Network for Panoptic Segmentation." CVPR (2019). [[paper](https://arxiv.org/pdf/1812.03904.pdf)]
 
@@ -91,5 +91,5 @@ Generally, the datasets which contains both semantic and instance annotations ca
 
 
 ## Blogs
-* **Face++ Detection Team:** https://zhuanlan.zhihu.com/p/59141570
+* **Megvii(Face++) Detection Team:** https://zhuanlan.zhihu.com/p/59141570
 
