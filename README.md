@@ -4,7 +4,10 @@ This repo is a collection of the challenging panoptic segmentation, including pa
 ##  Content
 * [Panoptic Segmentation](#panoptic-segmentation)
 * [Datasets](#datasets)
-* [Evaluation]
+* [Evaluation](#evaluation)
+* [Benchmark Results](#benchmark-results)
+* [Papers](#papers)
+* [Blogs](#blogs)
 
 
 
@@ -35,8 +38,7 @@ Generally, the datasets which contains both semantic and instance annotations ca
 * [mcordts/cityscapesScripts](https://github.com/mcordts/cityscapesScripts)
 
 ## Benchmark Results
-
-* **COCO Benchmark**
+### COCO Benchmark
 
 | Method | Backbone | PQ | PQ-Thing | PQ-Stuff | SQ | RQ | mIoU | AP-Mask | PC |  e2e | 
 | :----------: | :-----------: | :-----------: | :-----------: |:-----------: |:-----------: |:-----------: |:-----------: |:-----------: | :-----------: | :-----------: |
@@ -46,8 +48,7 @@ Generally, the datasets which contains both semantic and instance annotations ca
 | Panoptic FPN | ResNet-101 | 40.9 | 48.3 | 29.7 | - | - | - | - | - | :heavy_check_mark: |
 | DeeperLab | Xception-71 | 34.3 | 37.5 | 29.6 | 77.1 | 43.1 | - | - | 56.8 |  :heavy_check_mark: |
 
-
-* **Cityscapes Benchmark**
+### Cityscapes Benchmark
 
 | Method | Backbone | PQ | PQ-Thing | PQ-Stuff | SQ | RQ | mIoU | AP-Mask | PC |  e2e | 
 | :----------: | :-----------: | :-----------: | :-----------: |:-----------: |:-----------: |:-----------: |:-----------: |:-----------: | :-----------: | :-----------: |
@@ -60,7 +61,7 @@ Generally, the datasets which contains both semantic and instance annotations ca
 | AUNet | ResNet-101 | 59.0 | 54.8 | 62.1 | - | - | 75.6 | 34.4 | - | :heavy_check_mark: |
 
 
-* **Mapillary Benchmark** 
+### Mapillary Benchmark
 
 | Method | Backbone | PQ | PQ-Thing | PQ-Stuff | SQ | RQ | mIoU | AP-Mask | PC |  e2e | 
 | :----------: | :-----------: | :-----------: | :-----------: |:-----------: |:-----------: |:-----------: |:-----------: |:-----------: | :-----------: | :-----------: |
