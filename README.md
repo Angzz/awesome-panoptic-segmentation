@@ -40,6 +40,12 @@ Generally, the datasets which contains both semantic and instance annotations ca
 * [cocodataset/panopticapi](https://github.com/cocodataset/panopticapi)
 * [mcordts/cityscapesScripts](https://github.com/mcordts/cityscapesScripts)
 
+### Competition
+* [COCO 2018 Panoptic Segmentation Task](http://cocodataset.org/index.htm#panoptic-2018)
+* [Mapillary Vistas 2018 Panoptic Segmentation Task](https://research.mapillary.com/eccv18/#panoptic)
+* [Cityscapes Panoptic Semantic Labeling Task](https://www.cityscapes-dataset.com/benchmarks/#panoptic-scene-labeling-task)
+* [COCO+Mapillary 2019 Panoptic Segmentation Task (ICCV 2019 Workshop)](http://iccv2019.thecvf.com/program/workshops)
+
 ## Benchmark Results
 ### COCO Benchmark
 
