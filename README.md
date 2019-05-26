@@ -26,7 +26,7 @@ Generally, the datasets which contains both semantic and instance annotations ca
 * [BDD100K](https://bair.berkeley.edu/blog/2018/05/30/bdd/) (the instance annotations are temporaily not released)
 
 ## Evaluation
-### Metric
+### Metrics
 * ``PQ`` are the standard metrics described in [Panoptic Segmentation](https://arxiv.org/pdf/1801.00868.pdf).
 <div align="center" width="10" height="5"><img src="img/pq_metric.png" width="600" height="150"></div>
 
@@ -107,5 +107,6 @@ Generally, the datasets which contains both semantic and instance annotations ca
 
 
 ## Blogs
-* **Megvii(Face++) Detection Team:** https://zhuanlan.zhihu.com/p/59141570
+
+* [Megvii(Face++) Detection Team](https://zhuanlan.zhihu.com/p/59141570)
 
