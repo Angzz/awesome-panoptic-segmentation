@@ -16,6 +16,7 @@ Summarize in one sentence : Panoptic Segmentation proposes to solve the semantic
 
 ### Structure Overview
 <div align="center"><img src="img/panoptic_structure.png" width="800" height="240"></div>
+
 from [UPSNet](https://arxiv.org/pdf/1901.03784.pdf).
 
 ## Datasets
