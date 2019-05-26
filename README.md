@@ -2,7 +2,7 @@
 This repo is a collection of the challenging panoptic segmentation, including papers, codes, and benchmark results, etc.
 
 # Content
-* [Panoptic Segmentation](#Panoptic Segmentation)
+* [Panoptic Segmentation](https://github.com/Angzz/awesome-panoptic-segmentation/tree/liang#panoptic-segmentation)
 * [Datasets](## Datasets)
 
 
