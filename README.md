@@ -2,7 +2,7 @@
 This repo is a collection of the challenging panoptic segmentation, including papers, codes, and benchmark results, etc.
 
 # Content
-* [Panoptic Segmentation](## Panoptic Segmentation)
+* [Panoptic Segmentation](#Panoptic Segmentation)
 * [Datasets](## Datasets)
 
 
