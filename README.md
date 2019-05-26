@@ -1,9 +1,23 @@
 # Awesome-Panoptic-Segmentation
 This repo is a collection of the challenging panoptic segmentation, including papers, codes, and benchmark results, etc.
 
+##  Content
+* [Panoptic Segmentation](#panoptic-segmentation)
+* [Datasets](#datasets)
+* [Evaluation](#evaluation)
+* [Benchmark Results](#benchmark-results)
+* [Papers](#papers)
+* [Blogs](#blogs)
+
+
 ## Panoptic Segmentation
-<div align="center" width="10" height="5"><img src="img/panoptic_segmentation_overview.png" width="700" height="500"></div>
+<div align="center"><img src="img/panoptic_segmentation_overview2.png" width="900" height="180"></div>
 Summarize in one sentence : Panoptic Segmentation proposes to solve the semantic segmentation(*Stuff*) and instance segmentation(*Thing*) in a unified and general manner.
+
+### Structure Overview
+<div align="center"><img src="img/panoptic_structure.png" width="800" height="240"></div>
+
+from [UPSNet](https://arxiv.org/pdf/1901.03784.pdf).
 
 ## Datasets
 
@@ -14,14 +28,20 @@ Generally, the datasets which contains both semantic and instance annotations ca
 * [COCO-Panoptic](http://cocodataset.org/)
 * [BDD100K](https://bair.berkeley.edu/blog/2018/05/30/bdd/) (the instance annotations are temporaily not released)
 
-## Benchmark Results
+## Evaluation
+### Metrics
 * ``PQ`` are the standard metrics described in [Panoptic Segmentation](https://arxiv.org/pdf/1801.00868.pdf).
 <div align="center" width="10" height="5"><img src="img/pq_metric.png" width="600" height="150"></div>
 
 * ``PC`` are the standard metrics described in [DeeperLab](https://arxiv.org/pdf/1902.05093).
 <div align="center" width="10" height="5"><img src="img/pc_metric.png" width="600" height="207"></div>
 
-* **COCO Benchmark**
+### Evaluation Code
+* [cocodataset/panopticapi](https://github.com/cocodataset/panopticapi)
+* [mcordts/cityscapesScripts](https://github.com/mcordts/cityscapesScripts)
+
+## Benchmark Results
+### COCO Benchmark
 
 | Method | Backbone | PQ | PQ-Thing | PQ-Stuff | SQ | RQ | mIoU | AP-Mask | PC |  e2e | 
 | :----------: | :-----------: | :-----------: | :-----------: |:-----------: |:-----------: |:-----------: |:-----------: |:-----------: | :-----------: | :-----------: |
@@ -31,8 +51,7 @@ Generally, the datasets which contains both semantic and instance annotations ca
 | Panoptic FPN | ResNet-101 | 40.9 | 48.3 | 29.7 | - | - | - | - | - | :heavy_check_mark: |
 | DeeperLab | Xception-71 | 34.3 | 37.5 | 29.6 | 77.1 | 43.1 | - | - | 56.8 |  :heavy_check_mark: |
 
-
-* **Cityscapes Benchmark**
+### Cityscapes Benchmark
 
 | Method | Backbone | PQ | PQ-Thing | PQ-Stuff | SQ | RQ | mIoU | AP-Mask | PC |  e2e | 
 | :----------: | :-----------: | :-----------: | :-----------: |:-----------: |:-----------: |:-----------: |:-----------: |:-----------: | :-----------: | :-----------: |
@@ -45,7 +64,7 @@ Generally, the datasets which contains both semantic and instance annotations ca
 | AUNet | ResNet-101 | 59.0 | 54.8 | 62.1 | - | - | 75.6 | 34.4 | - | :heavy_check_mark: |
 
 
-* **Mapillary Benchmark** 
+### Mapillary Benchmark
 
 | Method | Backbone | PQ | PQ-Thing | PQ-Stuff | SQ | RQ | mIoU | AP-Mask | PC |  e2e | 
 | :----------: | :-----------: | :-----------: | :-----------: |:-----------: |:-----------: |:-----------: |:-----------: |:-----------: | :-----------: | :-----------: |
@@ -91,5 +110,6 @@ Generally, the datasets which contains both semantic and instance annotations ca
 
 
 ## Blogs
-* **Megvii(Face++) Detection Team:** https://zhuanlan.zhihu.com/p/59141570
+
+* [Megvii(Face++) Detection Team](https://zhuanlan.zhihu.com/p/59141570)
 
