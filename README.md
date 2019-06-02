@@ -1,4 +1,4 @@
-# Awesome-Panoptic-Segmentation
+# Awesome-Panoptic-Segmentation [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 This repo is a collection of the challenging panoptic segmentation, including papers, codes, and benchmark results, etc.
 
 ##  Content
