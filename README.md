@@ -102,7 +102,10 @@ Generally, the datasets which contains both semantic and instance annotations ca
 * Qizhu Li, Anurag Arnab, Philip H.S. Torr.<br />"Weakly- and Semi-Supervised Panoptic Segmentation." ECCV (2018). [[paper](https://arxiv.org/pdf/1812.01192.pdf)] [[code](https://github.com/qizhuli/Weakly-Supervised-Panoptic-Segmentation)]
 
 ### ArXiv
-* **TASCNet:** Jie Li, Allan Raventos, Arjun Bhargava, Takaaki Tagawa, Adrien Gaidon.<br />"Learning to Fuse Things and Stuff." arXiv (2018). [[paper](https://arxiv.org/pdf/1812.01192)]
+
+* **PEN:** Yuan Hu, Yingtian Zou, Jiashi Feng.<br />"Panoptic Edge Detection." arXiv (2019). [[paper](https://arxiv.org/pdf/1906.00590.pdf)]
+
+* **TASCNet:** Jie Li, Allan Raventos, Arjun Bhargava, Takaaki Tagawa, Adrien Gaidon.<br />"Learning to Fuse Things and Stuff." arXiv (2018). [[paper](https://arxiv.org/pdf/1812.01192.pdf)]
 
 * **Seamless:** Lorenzo Porzi, Samuel Rota Bulo, Aleksander Colovic, Peter Kontschieder.<br />"Seamless Scene Segmentation." arXiv (2019). [[paper](https://arxiv.org/pdf/1905.01220.pdf)]
 
