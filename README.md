@@ -102,6 +102,7 @@ Generally, the datasets which contains both semantic and instance annotations ca
 * Qizhu Li, Anurag Arnab, Philip H.S. Torr.<br />"Weakly- and Semi-Supervised Panoptic Segmentation." ECCV (2018). [[paper](https://arxiv.org/pdf/1812.01192.pdf)] [[code](https://github.com/qizhuli/Weakly-Supervised-Panoptic-Segmentation)]
 
 ### ArXiv
+* **OCFusion:** Justin Lazarow, Kwonjoon Lee, Zhuowen Tu.<br />"Learning Instance Occlusion for Panoptic Segmentation." arXiv (2019). [[paper](https://arxiv.org/pdf/1906.05896.pdff)]
 
 * **PEN:** Yuan Hu, Yingtian Zou, Jiashi Feng.<br />"Panoptic Edge Detection." arXiv (2019). [[paper](https://arxiv.org/pdf/1906.00590.pdf)]
 
