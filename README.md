@@ -102,6 +102,10 @@ Generally, the datasets which contains both semantic and instance annotations ca
 * Qizhu Li, Anurag Arnab, Philip H.S. Torr.<br />"Weakly- and Semi-Supervised Panoptic Segmentation." ECCV (2018). [[paper](https://arxiv.org/pdf/1812.01192.pdf)] [[code](https://github.com/qizhuli/Weakly-Supervised-Panoptic-Segmentation)]
 
 ### ArXiv
+* Cheng-Yang Fu, Tamara L. Berg, Alexander C. Berg.<br />"IMP: Instance Mask Projection for High Accuracy Semantic Segmentation of Things." arXiv (2019). [[paper](https://arxiv.org/pdf/1906.06597.pdf)]
+
+* Jasper R. R. Uijlings, Mykhaylo Andriluka, Vittorio Ferrari.<br />"Panoptic Image Annotation with a Collaborative Assistant." arXiv (2019). [[paper](https://arxiv.org/pdf/1906.06798.pdf)]
+
 * **OCFusion:** Justin Lazarow, Kwonjoon Lee, Zhuowen Tu.<br />"Learning Instance Occlusion for Panoptic Segmentation." arXiv (2019). [[paper](https://arxiv.org/pdf/1906.05896.pdf)]
 
 * **PEN:** Yuan Hu, Yingtian Zou, Jiashi Feng.<br />"Panoptic Edge Detection." arXiv (2019). [[paper](https://arxiv.org/pdf/1906.00590.pdf)]
