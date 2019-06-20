@@ -1,12 +1,13 @@
 # Awesome-Panoptic-Segmentation [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 This repo is a collection of the challenging panoptic segmentation, including papers, codes, and benchmark results, etc.
 
-##  Content
+##  Outline
 * [Panoptic Segmentation](#panoptic-segmentation)
 * [Datasets](#datasets)
 * [Evaluation](#evaluation)
 * [Benchmark Results](#benchmark-results)
 * [Papers](#papers)
+* [Tutorials](#tutorials)
 * [Blogs](#blogs)
 
 
@@ -122,8 +123,12 @@ Generally, the datasets which contains both semantic and instance annotations ca
 
 * Gaku Narita, Takashi Seno, Tomoya Ishikawa, Yohsuke Kaji.<br />"PanopticFusion: Online Volumetric Semantic Mapping at the Level of Stuff and Things." arXiv (2019). [[paper](https://arxiv.org/pdf/1903.01177.pdf)]
 
+## Tutorials
+
+* CVPR 2019 Tutorial on Visual Recognition and Beyond. [[slides](https://www.dropbox.com/s/t6tg87t78pdq6v3/cvpr19_tutorial_alexander_kirillov.pdf?dl=0)] [[homepage](http://feichtenhofer.github.io/cvpr2019-recognition-tutorial/?nsukey=sJf%2BXalFUZ1SdTHfNF9ApK0yHb3RiOUTjCdoDI0FTj2gtGZgjyITEf3MIwlgv1CWJywF4qeEOFiUd14dVkeQjn61Yh4mOoqDVb%2Ff4BDiWtBZCNZzozDG5ryVLAM4y8kHxz2NXKdlyjgF2BwgPUMBLs4RrvMNRpgQl8PZ9KPBmhwEXq71r6E4dCCvEFCdio1Lj3aQc%2FoyG%2FdLIN3tBmSjPQ%3D%3D)]
+* COCO 2017 Workshop. [[slides](http://presentations.cocodataset.org/COCO17-Stuff-FAIR.pdf)]
 
 ## Blogs
 
-* [Megvii(Face++) Detection Team](https://zhuanlan.zhihu.com/p/59141570)
+* Megvii(Face++) Detection Team. [[zhihu]](https://zhuanlan.zhihu.com/p/59141570)
 
