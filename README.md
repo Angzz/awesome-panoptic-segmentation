@@ -23,11 +23,12 @@ from [UPSNet](https://arxiv.org/pdf/1901.03784.pdf).
 ## Datasets
 
 Generally, the datasets which contains both semantic and instance annotations can be used to solve the challenging *panoptic* task.
+
+* [COCO-Panoptic](http://cocodataset.org/)
 * [Cityscapes](https://www.cityscapes-dataset.com/)
 * [Mapillary Vistas](https://blog.mapillary.com/product/2017/05/03/mapillary-vistas-dataset.html)
 * [ADE20K](http://groups.csail.mit.edu/vision/datasets/ADE20K/)
-* [COCO-Panoptic](http://cocodataset.org/)
-* [BDD100K](https://bair.berkeley.edu/blog/2018/05/30/bdd/) (the instance annotations are temporaily not released)
+
 
 ## Evaluation
 ### Metrics
