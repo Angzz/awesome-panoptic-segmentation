@@ -55,7 +55,7 @@ Generally, the datasets which contains both semantic and instance annotations ca
 
 | Method | Backbone | PQ | PQ-Thing | PQ-Stuff | SQ | RQ | mIoU | AP-Mask | PC |  e2e | 
 | :----------: | :-----------: | :-----------: | :-----------: |:-----------: |:-----------: |:-----------: |:-----------: |:-----------: | :-----------: | :-----------: |
-| UPSNet | ResNet-101 | 42.5 | 48.6 | 33.4 | - | - | 54.3 | 34.3 | - | :white_check_mark: |
+| UPSNet | ResNet-50 | 42.5 | 48.6 | 33.4 | - | - | 54.3 | 34.3 | - | :white_check_mark: |
 | OANet | ResNet-101 | 41.3 | 50.4 | 27.7 | - | - | - | - | - | :white_check_mark: |
 | OCFusion | ResNet-50 | 41.0 | 49.0 | 29.0 | 77.1 | 50.6 | - | - | - | :white_check_mark: |
 | Panoptic FPN | ResNet-101 | 40.9 | 48.3 | 29.7 | - | - | - | - | - | :white_check_mark: |
