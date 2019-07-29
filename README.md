@@ -116,7 +116,7 @@ Generally, the datasets which contains both semantic and instance annotations ca
 
 * **TASCNet:** Jie Li, Allan Raventos, Arjun Bhargava, Takaaki Tagawa, Adrien Gaidon.<br />"Learning to Fuse Things and Stuff." arXiv (2018). [[paper](https://arxiv.org/pdf/1812.01192.pdf)]
 
-* **Seamless:** Lorenzo Porzi, Samuel Rota Bulo, Aleksander Colovic, Peter Kontschieder.<br />"Seamless Scene Segmentation." arXiv (2019). [[paper](https://arxiv.org/pdf/1905.01220.pdf)]
+* **Seamless:** Lorenzo Porzi, Samuel Rota Bulo, Aleksander Colovic, Peter Kontschieder.<br />"Seamless Scene Segmentation." arXiv (2019). [[paper](https://arxiv.org/pdf/1905.01220.pdf)][[code](https://github.com/mapillary/seamseg)]
 
 * Daan de Geus, Panagiotis Meletis, Gijs Dubbelman.<br />"Panoptic Segmentation with a Joint Semantic and Instance Segmentation Network." arXiv (2018). [[paper](https://arxiv.org/pdf/1809.02110.pdf)]
 
