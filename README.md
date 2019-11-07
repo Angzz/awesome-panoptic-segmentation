@@ -43,8 +43,8 @@ Generally, the datasets which contains both semantic and instance annotations ca
 * [mcordts/cityscapesScripts](https://github.com/mcordts/cityscapesScripts)
 
 ### Competition
-* [COCO 2019 Panoptic Segmentation Task (ICCV 2019 Workshop, Open)](http://cocodataset.org/#panoptic-2019)
-* [Mapillary 2019 Panoptic Segmentation Task (ICCV 2019 Workshop, Open)](https://research.mapillary.com/eccv18/#panoptic)
+* [COCO 2019 Panoptic Segmentation Task (ICCV 2019 Workshop, Closed)](http://cocodataset.org/#panoptic-2019)
+* [Mapillary 2019 Panoptic Segmentation Task (ICCV 2019 Workshop, Closed)](https://research.mapillary.com/eccv18/#panoptic)
 * [Cityscapes Panoptic Semantic Labeling Task (Open)](https://www.cityscapes-dataset.com/benchmarks/#panoptic-scene-labeling-task)
 * [COCO 2018 Panoptic Segmentation Task (ECCV 2018 Workshop, Closed)](http://cocodataset.org/index.htm#panoptic-2018)
 * [Mapillary Vistas 2018 Panoptic Segmentation Task (ECCV 2018 Workshop, Closed)](https://research.mapillary.com/eccv18/#panoptic)
@@ -86,6 +86,11 @@ Generally, the datasets which contains both semantic and instance annotations ca
 
 
 ## Papers 
+### ICCV2019
+* **AdaptIS:** Konstantin Sofiiuk, Olga Barinova, Anton Konushin.<br />"AdaptIS: Adaptive Instance Selection Network." ICCV (2019). [[paper](https://arxiv.org/pdf/1909.07829.pdf)]
+
+* Bowen Cheng, Maxwell D. Collins, Yukun Zhu, Ting Liu, Thomas S. Huang, Hartwig Adam, Liang-Chieh Chen.<br />"Panoptic-DeepLab." ICCVW (2019). [[paper](https://arxiv.org/pdf/1910.04751.pdf)]
+
 ### CVPR2019
 * **Panoptic Segmentation:** Alexander Kirillov, Kaiming He, Ross Girshick, Carsten Rother, Piotr Dollár.<br />"Panoptic Segmentation." CVPR (2019). [[paper](https://arxiv.org/pdf/1801.00868.pdf)]
 
@@ -107,6 +112,9 @@ Generally, the datasets which contains both semantic and instance annotations ca
 * Qizhu Li, Anurag Arnab, Philip H.S. Torr.<br />"Weakly- and Semi-Supervised Panoptic Segmentation." ECCV (2018). [[paper](https://arxiv.org/pdf/1812.01192.pdf)] [[code](https://github.com/qizhuli/Weakly-Supervised-Panoptic-Segmentation)]
 
 ### ArXiv
+* Mark Weber, Jonathon Luiten, Bastian Leibe.<br />"Single-Shot Panoptic Segmentation." arXiv (2019). [[paper](https://arxiv.org/pdf/1911.00764.pdf)]
+
+* Qiang Chen, Anda Cheng, Xiangyu He, Peisong Wang, Jian Cheng.<br />"SpatialFlow: Bridging All Tasks for Panoptic Segmentation." arXiv (2019). [[paper](https://arxiv.org/pdf/1910.08787.pdf)]
 
 * Sagi Eppel, Alan Aspuru-Guzik.<br />"Generator evaluator-selector net: a modular approach for panoptic segmentation." arXiv (2019). [[paper](https://arxiv.org/pdf/1908.09108.pdf)]
 
