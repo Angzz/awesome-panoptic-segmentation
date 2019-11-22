@@ -15,13 +15,14 @@ This repo is a collection of the challenging panoptic segmentation, including pa
 <div align="center"><img src="img/panoptic_segmentation_overview2.png" width="900" height="180"></div>
 Summarize in one sentence : Panoptic Segmentation proposes to solve the semantic segmentation(*Stuff*) and instance segmentation(*Thing*) in a unified and general manner.
 
+
 ### Structure Overview
 <div align="center"><img src="img/panoptic_structure.png" width="800" height="240"></div>
 
 from [UPSNet](https://arxiv.org/pdf/1901.03784.pdf).
 
-## Datasets
 
+## Datasets
 Generally, the datasets which contains both semantic and instance annotations can be used to solve the challenging *panoptic* task.
 
 * [COCO-Panoptic](http://cocodataset.org/)
@@ -50,10 +51,8 @@ Generally, the datasets which contains both semantic and instance annotations ca
 * [Mapillary Vistas 2018 Panoptic Segmentation Task (ECCV 2018 Workshop, Closed)](https://research.mapillary.com/eccv18/#panoptic)
 
 
-
 ## Benchmark Results
 ### COCO Benchmark
-
 | Method | Backbone | PQ | PQ-Thing | PQ-Stuff | SQ | RQ | mIoU | AP-Mask | PC |  e2e | 
 | :----------: | :-----------: | :-----------: | :-----------: |:-----------: |:-----------: |:-----------: |:-----------: |:-----------: | :-----------: | :-----------: |
 | SOGNet | ResNet-50 | 43.7 | 50.6 | 33.2 | - | - | - | - | - | :white_check_mark: |
@@ -65,7 +64,6 @@ Generally, the datasets which contains both semantic and instance annotations ca
 | DeeperLab | Xception-71 | 34.3 | 37.5 | 29.6 | 77.1 | 43.1 | - | - | 56.8 | :white_check_mark: |
 
 ### Cityscapes Benchmark
-
 | Method | Backbone | PQ | PQ-Thing | PQ-Stuff | SQ | RQ | mIoU | AP-Mask | PC |  e2e | 
 | :----------: | :-----------: | :-----------: | :-----------: |:-----------: |:-----------: |:-----------: |:-----------: |:-----------: | :-----------: | :-----------: |
 | Panoptic(Merge) | - | 61.2 | 66.4 | 54.0 | 80.9 | 74.4 | - | - | - | :negative_squared_cross_mark: |
@@ -78,7 +76,6 @@ Generally, the datasets which contains both semantic and instance annotations ca
 | DeeperLab | Xception-71 | 56.5 | - | - | - | - | - | - | 75.6 |  :white_check_mark: |
 
 ### Mapillary Benchmark
-
 | Method | Backbone | PQ | PQ-Thing | PQ-Stuff | SQ | RQ | mIoU | AP-Mask | PC |  e2e | 
 | :----------: | :-----------: | :-----------: | :-----------: |:-----------: |:-----------: |:-----------: |:-----------: |:-----------: | :-----------: | :-----------: |
 | Panoptic(Merge) | -  | 38.3 | 41.8 | 35.7 | 73.6 | 47.7 | - | - | - | :negative_squared_cross_mark: |
@@ -101,7 +98,7 @@ Generally, the datasets which contains both semantic and instance annotations ca
 ### CVPR2019
 * **Panoptic Segmentation:** Alexander Kirillov, Kaiming He, Ross Girshick, Carsten Rother, Piotr Dollár.<br />"Panoptic Segmentation." CVPR (2019). [[paper](https://arxiv.org/pdf/1801.00868.pdf)]
 
-* **Panoptic FPN:** Alexander Kirillov, Ross Girshick, Kaiming He, Piotr Dollár.<br />"Panoptic Feature Pyramid Networks." CVPR (2019 **oral**). [[paper](https://arxiv.org/pdf/1901.02446.pdf)] [[unofficial code](https://github.com/Angzz/panoptic-fpn-gluon)]
+* **Panoptic FPN:** Alexander Kirillov, Ross Girshick, Kaiming He, Piotr Dollár.<br />"Panoptic Feature Pyramid Networks." CVPR (2019 **oral**). [[paper](https://arxiv.org/pdf/1901.02446.pdf)] [[unofficial code](https://github.com/Angzz/panoptic-fpn-gluon)][[detectron2]](https://github.com/facebookresearch/detectron2)
 
 * **AUNet:** Yanwei Li, Xinze Chen, Zheng Zhu, Lingxi Xie, Guan Huang, Dalong Du, Xingang Wang.<br />"Attention-guided Unified Network for Panoptic Segmentation." CVPR (2019). [[paper](https://arxiv.org/pdf/1812.03904.pdf)]
 
@@ -115,7 +112,6 @@ Generally, the datasets which contains both semantic and instance annotations ca
 .<br />"Interactive Full Image Segmentation by Considering All Regions Jointly." CVPR (2019). [[paper](https://arxiv.org/pdf/1812.01888.pdf)]
 
 * **Seamless:** Lorenzo Porzi, Samuel Rota Bulo, Aleksander Colovic, Peter Kontschieder.<br />"Seamless Scene Segmentation." CVPR (2019) (Extended Version). [[paper](https://arxiv.org/pdf/1905.01220.pdf)][[code](https://github.com/mapillary/seamseg)]
-
 
 ### ECCV2018
 * Qizhu Li, Anurag Arnab, Philip H.S. Torr.<br />"Weakly- and Semi-Supervised Panoptic Segmentation." ECCV (2018). [[paper](https://arxiv.org/pdf/1812.01192.pdf)] [[code](https://github.com/qizhuli/Weakly-Supervised-Panoptic-Segmentation)]
@@ -135,8 +131,6 @@ Generally, the datasets which contains both semantic and instance annotations ca
 
 * **TASCNet:** Jie Li, Allan Raventos, Arjun Bhargava, Takaaki Tagawa, Adrien Gaidon.<br />"Learning to Fuse Things and Stuff." arXiv (2018). [[paper](https://arxiv.org/pdf/1812.01192.pdf)]
 
-
-
 * Daan de Geus, Panagiotis Meletis, Gijs Dubbelman.<br />"Panoptic Segmentation with a Joint Semantic and Instance Segmentation Network." arXiv (2018). [[paper](https://arxiv.org/pdf/1809.02110.pdf)]
 
 * Daan de Geus, Panagiotis Meletis, Gijs Dubbelman.<br />"Single Network Panoptic Segmentation for Street Scene Understanding." arXiv (2019). [[paper](https://arxiv.org/pdf/1902.02678.pdf)]
@@ -145,12 +139,12 @@ Generally, the datasets which contains both semantic and instance annotations ca
 
 * Gaku Narita, Takashi Seno, Tomoya Ishikawa, Yohsuke Kaji.<br />"PanopticFusion: Online Volumetric Semantic Mapping at the Level of Stuff and Things." arXiv (2019). [[paper](https://arxiv.org/pdf/1903.01177.pdf)]
 
-## Tutorials
 
+## Tutorials
 * CVPR 2019 Tutorial on Visual Recognition and Beyond. [[slides](https://www.dropbox.com/s/t6tg87t78pdq6v3/cvpr19_tutorial_alexander_kirillov.pdf?dl=0)] [[homepage](http://feichtenhofer.github.io/cvpr2019-recognition-tutorial/?nsukey=sJf%2BXalFUZ1SdTHfNF9ApK0yHb3RiOUTjCdoDI0FTj2gtGZgjyITEf3MIwlgv1CWJywF4qeEOFiUd14dVkeQjn61Yh4mOoqDVb%2Ff4BDiWtBZCNZzozDG5ryVLAM4y8kHxz2NXKdlyjgF2BwgPUMBLs4RrvMNRpgQl8PZ9KPBmhwEXq71r6E4dCCvEFCdio1Lj3aQc%2FoyG%2FdLIN3tBmSjPQ%3D%3D)]
 * COCO 2017 Workshop. [[slides](http://presentations.cocodataset.org/COCO17-Stuff-FAIR.pdf)]
 
-## Blogs
 
+## Blogs
 * Megvii(Face++) Detection Team. [[zhihu]](https://zhuanlan.zhihu.com/p/59141570)
 
