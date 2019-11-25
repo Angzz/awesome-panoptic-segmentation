@@ -52,7 +52,7 @@ Generally, the datasets which contains both semantic and instance annotations ca
 
 
 ## Benchmark Results
-### COCO Benchmark
+### COCO `val` Benchmark
 | Method | Backbone | PQ | PQ-Thing | PQ-Stuff | SQ | RQ | mIoU | AP-Mask | PC |  e2e | 
 | :----------: | :-----------: | :-----------: | :-----------: |:-----------: |:-----------: |:-----------: |:-----------: |:-----------: | :-----------: | :-----------: |
 | SOGNet | ResNet-50 | 43.7 | 50.6 | 33.2 | 78.7 | 53.5 | 54.56 | 34.2 | - | :white_check_mark: |
@@ -61,12 +61,14 @@ Generally, the datasets which contains both semantic and instance annotations ca
 | OCFusion | ResNet-50 | 41.0 | 49.0 | 29.0 | 77.1 | 50.6 | - | - | - | :white_check_mark: |
 | Panoptic FPN | ResNet-101 | 40.9 | 48.3 | 29.7 | - | - | - | - | - | :white_check_mark: |
 | AUNet | ResNet-50 | 39.6 | 49.1 | 25.2 | - | - | 45.1 | 34.7 | - | :white_check_mark: |
+| AdaptIS | ResNet-101  | 37.0 | 41.8 | 29.9 | - | - | - | - | - | :white_check_mark: |
 | DeeperLab | Xception-71 | 34.3 | 37.5 | 29.6 | 77.1 | 43.1 | - | - | 56.8 | :white_check_mark: |
 
 ### Cityscapes Benchmark
 | Method | Backbone | PQ | PQ-Thing | PQ-Stuff | SQ | RQ | mIoU | AP-Mask | PC |  e2e | 
 | :----------: | :-----------: | :-----------: | :-----------: |:-----------: |:-----------: |:-----------: |:-----------: |:-----------: | :-----------: | :-----------: |
 | Panoptic(Merge) | - | 61.2 | 66.4 | 54.0 | 80.9 | 74.4 | - | - | - | :negative_squared_cross_mark: |
+| AdaptIS | ResNet-101  | 60.6 | 58.7 | 64.4 | - | - | 79.2 | 36.3 | - | :white_check_mark: |
 | SOGNet | ResNet-50  | 60.0 | 56.7 | 62.5 | - | - | - | - | - | :white_check_mark: |
 | Seamless | ResNet-50  | 59.8 | 53.4 | 64.5 | - | - | 75.4 | 31.9 | - | :white_check_mark: |
 | UPSNet | ResNet-50 | 59.3 | 54.6 | 62.7 | 79.7 | 73.0 | 75.2 | 33.3 | - | :white_check_mark: |
@@ -75,13 +77,14 @@ Generally, the datasets which contains both semantic and instance annotations ca
 | Panoptic FPN | ResNet-101 | 58.1 | 52.0 | 62.5 | - | - | 75.7 |33.0 | - | :white_check_mark: |
 | DeeperLab | Xception-71 | 56.5 | - | - | - | - | - | - | 75.6 |  :white_check_mark: |
 
-### Mapillary Benchmark
+### Mapillary `validation` Benchmark
 | Method | Backbone | PQ | PQ-Thing | PQ-Stuff | SQ | RQ | mIoU | AP-Mask | PC |  e2e | 
 | :----------: | :-----------: | :-----------: | :-----------: |:-----------: |:-----------: |:-----------: |:-----------: |:-----------: | :-----------: | :-----------: |
 | Panoptic(Merge) | -  | 38.3 | 41.8 | 35.7 | 73.6 | 47.7 | - | - | - | :negative_squared_cross_mark: |
 | Seamless | ResNet-50  | 37.2 | 33.2 | 42.5 | - | - | 50.2 | 16.3 | - | :white_check_mark: |
+| AdaptIS | ResNet-101  | 33.4 | 28.3 | 40.3 | - | - | - | - | - | :white_check_mark: |
 | TASCNet | ResNet-101 | 32.6 | 31.3 | 34.4 | - | - | 35.0 | 18.5 | - | :white_check_mark: |
-| DeeperLab | Xception-71 | 31.6 | 25.0 | 40.3 | 75.5 | 40.1 | - | - | 55.3 |  :white_check_mark: |
+| DeeperLab | Xception-71 | 32.0 | - | - | - | - | - | - | 55.3 |  :white_check_mark: |
 
 
 ## Papers 
@@ -93,7 +96,7 @@ Generally, the datasets which contains both semantic and instance annotations ca
 
 * Cheng-Yang Fu, Tamara L. Berg, Alexander C. Berg.<br />"IMP: Instance Mask Projection for High Accuracy Semantic Segmentation of Things." ICCV (2019). [[paper](https://arxiv.org/pdf/1906.06597.pdf)]
 
-* Bowen Cheng, Maxwell D. Collins, Yukun Zhu, Ting Liu, Thomas S. Huang, Hartwig Adam, Liang-Chieh Chen.<br />"Panoptic-DeepLab." ICCVW (2019). [[paper](https://arxiv.org/pdf/1910.04751.pdf)]
+* Bowen Cheng, Maxwell D. Collins, Yukun Zhu, Ting Liu, Thomas S. Huang, Hartwig Adam, Liang-Chieh Chen.<br />"Panoptic-DeepLab: A Simple, Strong, and Fast Baseline for Bottom-Up Panoptic Segmentation Bowen." ICCVW (2019). [[paper](https://arxiv.org/pdf/1911.10194.pdf)]
 
 ### CVPR2019
 * **Panoptic Segmentation:** Alexander Kirillov, Kaiming He, Ross Girshick, Carsten Rother, Piotr Dollár.<br />"Panoptic Segmentation." CVPR (2019). [[paper](https://arxiv.org/pdf/1801.00868.pdf)]
@@ -137,7 +140,7 @@ Generally, the datasets which contains both semantic and instance annotations ca
 
 * David Owen, Ping-Lin Chang.<br />"Detecting Reflections by Combining Semantic and Instance Segmentation." arXiv (2019). [[paper](https://arxiv.org/pdf/1904.13273.pdf)]
 
-* Gaku Narita, Takashi Seno, Tomoya Ishikawa, Yohsuke Kaji.<br />"PanopticFusion: Online Volumetric Semantic Mapping at the Level of Stuff and Things." arXiv (2019). [[paper](https://arxiv.org/pdf/1903.01177.pdf)]
+* Gaku Narita, Takashi Seno, Tomoya Ishikawa, Yohsuke Kaji.<br />"PanopticFusion: Online Volumetric Semantic Mapping at the Level of Stuff and Things." arXiv (2019, IROS). [[paper](https://arxiv.org/pdf/1903.01177.pdf)]
 
 
 ## Tutorials
