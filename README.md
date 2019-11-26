@@ -64,7 +64,7 @@ Generally, the datasets which contains both semantic and instance annotations ca
 | AdaptIS | ResNet-101  | 37.0 | 41.8 | 29.9 | - | - | - | - | - | :white_check_mark: |
 | DeeperLab | Xception-71 | 34.3 | 37.5 | 29.6 | 77.1 | 43.1 | - | - | 56.8 | :white_check_mark: |
 
-### Cityscapes Benchmark
+### Cityscapes `val`Benchmark
 | Method | Backbone | PQ | PQ-Thing | PQ-Stuff | SQ | RQ | mIoU | AP-Mask | PC |  e2e | 
 | :----------: | :-----------: | :-----------: | :-----------: |:-----------: |:-----------: |:-----------: |:-----------: |:-----------: | :-----------: | :-----------: |
 | Panoptic(Merge) | - | 61.2 | 66.4 | 54.0 | 80.9 | 74.4 | - | - | - | :negative_squared_cross_mark: |
@@ -77,7 +77,7 @@ Generally, the datasets which contains both semantic and instance annotations ca
 | Panoptic FPN | ResNet-101 | 58.1 | 52.0 | 62.5 | - | - | 75.7 |33.0 | - | :white_check_mark: |
 | DeeperLab | Xception-71 | 56.5 | - | - | - | - | - | - | 75.6 |  :white_check_mark: |
 
-### Mapillary `validation` Benchmark
+### Mapillary `val` Benchmark
 | Method | Backbone | PQ | PQ-Thing | PQ-Stuff | SQ | RQ | mIoU | AP-Mask | PC |  e2e | 
 | :----------: | :-----------: | :-----------: | :-----------: |:-----------: |:-----------: |:-----------: |:-----------: |:-----------: | :-----------: | :-----------: |
 | Panoptic(Merge) | -  | 38.3 | 41.8 | 35.7 | 73.6 | 47.7 | - | - | - | :negative_squared_cross_mark: |
