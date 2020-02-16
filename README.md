@@ -29,6 +29,7 @@ Generally, the datasets which contains both semantic and instance annotations ca
 * [Cityscapes](https://www.cityscapes-dataset.com/)
 * [Mapillary Vistas](https://blog.mapillary.com/product/2017/05/03/mapillary-vistas-dataset.html)
 * [ADE20K](http://groups.csail.mit.edu/vision/datasets/ADE20K/)
+* [IDD20K](http://idd.insaan.iiit.ac.in/)
 
 
 ## Evaluation
@@ -44,6 +45,7 @@ Generally, the datasets which contains both semantic and instance annotations ca
 * [mcordts/cityscapesScripts](https://github.com/mcordts/cityscapesScripts)
 
 ### Competition
+* [AutoNUE 2019 Panoptic Segmentation Challenge (ICCV 2019 Workshop, Closed)](https://cvit.iiit.ac.in/autonue2019/challenge/)
 * [COCO 2019 Panoptic Segmentation Task (ICCV 2019 Workshop, Closed)](http://cocodataset.org/#panoptic-2019)
 * [Mapillary 2019 Panoptic Segmentation Task (ICCV 2019 Workshop, Closed)](https://research.mapillary.com/eccv18/#panoptic)
 * [Cityscapes Panoptic Semantic Labeling Task (Open)](https://www.cityscapes-dataset.com/benchmarks/#panoptic-scene-labeling-task)
