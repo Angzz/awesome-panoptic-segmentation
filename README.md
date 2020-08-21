@@ -122,6 +122,9 @@ Generally, the datasets which contains both semantic and instance annotations ca
 * Qizhu Li, Anurag Arnab, Philip H.S. Torr.<br />"Weakly- and Semi-Supervised Panoptic Segmentation." ECCV (2018). [[paper](https://arxiv.org/pdf/1812.01192.pdf)] [[code](https://github.com/qizhuli/Weakly-Supervised-Panoptic-Segmentation)]
 
 ### ArXiv
+* Rohit Mohan, Abhinav Valada.<br />
+"EfficientPS: Efficient Panoptic Segmentation." arXiv (2020). [[paper]](https://arxiv.org/abs/2004.02307)
+
 * Rui Hou, Jie Li, Arjun Bhargava, Allan Raventos, Vitor Guizilini, Chao Fang, Jerome Lynch, Adrien Gaidon.<br />
 "Real-Time Panoptic Segmentation from Dense Detections." arXiv (2019). [[paper]](https://arxiv.org/pdf/1912.01202.pdf)
 
